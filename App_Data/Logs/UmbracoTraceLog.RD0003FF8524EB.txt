@@ -53,7 +53,7 @@ System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet:
  2016-09-09 00:24:45,107 [P6000/D4/T8] INFO  Umbraco.Core.Persistence.Database - Create Table sql -1:
  CREATE TABLE [umbracoNode] ([id] INTEGER NOT NULL IDENTITY(1050,1),
 [trashed] BIT NOT NULL CONSTRAINT [DF_umbracoNode_trashed] DEFAULT ('0'),
-[parentID] INTEGER NOT NULL,
+[parentID] INTEGER NOT NULL, 
 [nodeUser] INTEGER NULL,
 [level] INTEGER NOT NULL,
 [path] NVARCHAR(150) NOT NULL,
